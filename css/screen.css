@@ -12,6 +12,11 @@ html {
     padding: 24px 24px 0;
 }
 
+body{
+    max-width: 42em;
+    vertical-align: middle;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -21,14 +26,18 @@ html {
 
 ::-moz-selection {
     background: #E85E00;
-    color: wwhite;
+    color: white;
     text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
     background: #E85E00;
     color: white;
     text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 /*
     Elements: Images
